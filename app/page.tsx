@@ -3,7 +3,6 @@ export default function Home() {
     <main className="min-h-screen bg-black text-white">
       <section className="mx-auto flex min-h-screen w-full max-w-7xl items-center px-6 py-20 md:px-10">
         <div className="grid w-full gap-12 lg:grid-cols-2 lg:items-center">
-          
           <div>
             <p className="mb-4 text-sm uppercase tracking-[0.2em] text-white/50">
               Client Acquisition System
@@ -102,7 +101,83 @@ export default function Home() {
               </div>
             </div>
           </div>
+        </div>
+      </section>
 
+      <section className="border-t border-white/10 bg-zinc-950">
+        <div className="mx-auto max-w-7xl px-6 py-24 md:px-10">
+          <div className="max-w-4xl">
+            <p className="text-sm uppercase tracking-[0.2em] text-white/40">
+              The Real Problem
+            </p>
+
+            <h2 className="mt-4 text-3xl font-semibold leading-tight md:text-5xl">
+              You’re Not Losing Clients Because of Your Offer.
+              <br className="hidden md:block" /> You’re Losing Them in the First
+              5 Minutes.
+            </h2>
+
+            <p className="mt-8 max-w-3xl text-lg leading-8 text-white/70">
+              Most high-ticket coaches don’t have a lead problem. They have a{" "}
+              <span className="font-medium text-white">response and follow-up problem</span>.
+              Leads come in. Interest is high. Intent is there. But what happens
+              next is where revenue is lost.
+            </p>
+
+            <p className="mt-6 max-w-3xl text-lg leading-8 text-white/70">
+              By the time you respond, the prospect may have already lost urgency,
+              spoken to someone else, or forgotten why they signed up in the first
+              place. Every delayed response quietly turns into{" "}
+              <span className="font-medium text-white">lost revenue you never even see</span>.
+            </p>
+          </div>
+
+          <div className="mt-12 grid gap-4 md:grid-cols-2">
+            <div className="rounded-3xl border border-white/10 bg-white/5 p-6">
+              <p className="text-base leading-7 text-white/80">
+                Leads sit for hours before getting a reply
+              </p>
+            </div>
+
+            <div className="rounded-3xl border border-white/10 bg-white/5 p-6">
+              <p className="text-base leading-7 text-white/80">
+                Follow-ups depend on mood, time, or memory
+              </p>
+            </div>
+
+            <div className="rounded-3xl border border-white/10 bg-white/5 p-6">
+              <p className="text-base leading-7 text-white/80">
+                Some prospects are contacted while others slip through the cracks
+              </p>
+            </div>
+
+            <div className="rounded-3xl border border-white/10 bg-white/5 p-6">
+              <p className="text-base leading-7 text-white/80">
+                There’s no clear visibility into where leads actually drop
+              </p>
+            </div>
+          </div>
+
+          <div className="mt-12 max-w-4xl">
+            <p className="text-xl leading-8 text-white/80">
+              This isn’t a marketing problem.
+            </p>
+
+            <p className="mt-3 text-2xl font-semibold leading-9 text-white">
+              It’s a consistency problem.
+            </p>
+
+            <p className="mt-6 max-w-3xl text-lg leading-8 text-white/70">
+              And consistency cannot be fixed with more ads, more leads, or more
+              effort. It can only be fixed with a system that executes every time,
+              without fail.
+            </p>
+
+            <p className="mt-8 text-lg font-medium leading-8 text-white">
+              In high-ticket coaching, the business that responds first, follows
+              up consistently, and controls the process wins the client.
+            </p>
+          </div>
         </div>
       </section>
     </main>
