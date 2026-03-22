@@ -292,6 +292,138 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <section
+        id="how-it-works"
+        className="border-t border-white/10 bg-zinc-950"
+      >
+        <div className="mx-auto max-w-7xl px-6 py-24 md:px-10">
+          <div className="max-w-4xl">
+            <p className="text-sm uppercase tracking-[0.2em] text-white/40">
+              How It Works
+            </p>
+
+            <h2 className="mt-4 text-3xl font-semibold leading-tight md:text-5xl">
+              A Simple Flow That Turns Interest Into Booked Calls
+            </h2>
+
+            <p className="mt-8 max-w-3xl text-lg leading-8 text-white/70">
+              Every lead is captured, contacted instantly, qualified, and guided
+              toward a booked call through a structured process designed to reduce
+              delay, inconsistency, and drop-off.
+            </p>
+          </div>
+
+          <div className="mt-14 hidden xl:flex xl:items-center xl:gap-4">
+            <div className="rounded-3xl border border-white/10 bg-white/5 px-5 py-4 text-sm text-white/80">
+              Lead Enters
+            </div>
+            <span className="text-white/30">→</span>
+            <div className="rounded-3xl border border-white/10 bg-white/5 px-5 py-4 text-sm text-white/80">
+              Instant Response
+            </div>
+            <span className="text-white/30">→</span>
+            <div className="rounded-3xl border border-white/10 bg-white/5 px-5 py-4 text-sm text-white/80">
+              Qualification
+            </div>
+            <span className="text-white/30">→</span>
+            <div className="rounded-3xl border border-white/10 bg-white/5 px-5 py-4 text-sm text-white/80">
+              Booking
+            </div>
+            <span className="text-white/30">→</span>
+            <div className="rounded-3xl border border-white/10 bg-white/5 px-5 py-4 text-sm text-white/80">
+              Follow-Up
+            </div>
+          </div>
+
+          <div className="mt-14 grid gap-6 md:grid-cols-2 xl:grid-cols-5">
+            <div className="rounded-3xl border border-white/10 bg-white/5 p-6">
+              <p className="text-sm uppercase tracking-[0.18em] text-white/40">
+                Step 1
+              </p>
+              <h3 className="mt-4 text-xl font-semibold text-white">
+                Lead Enters
+              </h3>
+              <p className="mt-4 text-base leading-7 text-white/70">
+                A prospect lands on your funnel, page, or ad and submits their
+                details.
+              </p>
+              <p className="mt-4 text-sm leading-6 text-white/50">
+                This is where intent is often highest.
+              </p>
+            </div>
+
+            <div className="rounded-3xl border border-white/10 bg-white/5 p-6">
+              <p className="text-sm uppercase tracking-[0.18em] text-white/40">
+                Step 2
+              </p>
+              <h3 className="mt-4 text-xl font-semibold text-white">
+                Instant Response
+              </h3>
+              <p className="mt-4 text-base leading-7 text-white/70">
+                The system responds within seconds through WhatsApp, SMS, or an
+                automated channel.
+              </p>
+              <p className="mt-4 text-sm leading-6 text-white/50">
+                Speed increases conversion probability.
+              </p>
+            </div>
+
+            <div className="rounded-3xl border border-white/10 bg-white/5 p-6">
+              <p className="text-sm uppercase tracking-[0.18em] text-white/40">
+                Step 3
+              </p>
+              <h3 className="mt-4 text-xl font-semibold text-white">
+                Qualification
+              </h3>
+              <p className="mt-4 text-base leading-7 text-white/70">
+                The lead is filtered based on intent, readiness, and fit so the
+                right prospects move forward faster.
+              </p>
+              <p className="mt-4 text-sm leading-6 text-white/50">
+                Not every lead should be treated the same.
+              </p>
+            </div>
+
+            <div className="rounded-3xl border border-white/10 bg-white/5 p-6">
+              <p className="text-sm uppercase tracking-[0.18em] text-white/40">
+                Step 4
+              </p>
+              <h3 className="mt-4 text-xl font-semibold text-white">Booking</h3>
+              <p className="mt-4 text-base leading-7 text-white/70">
+                Qualified leads are directed into a structured booking flow with
+                reminders and minimal friction.
+              </p>
+              <p className="mt-4 text-sm leading-6 text-white/50">
+                This closes the gap between interest and action.
+              </p>
+            </div>
+
+            <div className="rounded-3xl border border-white/10 bg-white/5 p-6">
+              <p className="text-sm uppercase tracking-[0.18em] text-white/40">
+                Step 5
+              </p>
+              <h3 className="mt-4 text-xl font-semibold text-white">
+                Follow-Up
+              </h3>
+              <p className="mt-4 text-base leading-7 text-white/70">
+                Unresponsive leads are re-engaged through messages or voice-based
+                workflows so opportunities are not wasted.
+              </p>
+              <p className="mt-4 text-sm leading-6 text-white/50">
+                Most hidden revenue lives here.
+              </p>
+            </div>
+          </div>
+
+          <div className="mt-12 max-w-4xl">
+            <p className="text-lg leading-8 text-white/70">
+              Every lead is handled instantly, consistently, and without relying
+              on manual effort.
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
