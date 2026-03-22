@@ -119,16 +119,21 @@ export default function Home() {
 
             <p className="mt-8 max-w-3xl text-lg leading-8 text-white/70">
               Most high-ticket coaches don’t have a lead problem. They have a{" "}
-              <span className="font-medium text-white">response and follow-up problem</span>.
-              Leads come in. Interest is high. Intent is there. But what happens
-              next is where revenue is lost.
+              <span className="font-medium text-white">
+                response and follow-up problem
+              </span>
+              . Leads come in. Interest is high. Intent is there. But what
+              happens next is where revenue is lost.
             </p>
 
             <p className="mt-6 max-w-3xl text-lg leading-8 text-white/70">
               By the time you respond, the prospect may have already lost urgency,
               spoken to someone else, or forgotten why they signed up in the first
               place. Every delayed response quietly turns into{" "}
-              <span className="font-medium text-white">lost revenue you never even see</span>.
+              <span className="font-medium text-white">
+                lost revenue you never even see
+              </span>
+              .
             </p>
           </div>
 
@@ -176,6 +181,113 @@ export default function Home() {
             <p className="mt-8 text-lg font-medium leading-8 text-white">
               In high-ticket coaching, the business that responds first, follows
               up consistently, and controls the process wins the client.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="border-t border-white/10 bg-black">
+        <div className="mx-auto max-w-7xl px-6 py-24 md:px-10">
+          <div className="max-w-4xl">
+            <p className="text-sm uppercase tracking-[0.2em] text-white/40">
+              The Solution
+            </p>
+
+            <h2 className="mt-4 text-3xl font-semibold leading-tight md:text-5xl">
+              A Disciplined Client Acquisition System That Eliminates Lost
+              Opportunities
+            </h2>
+
+            <p className="mt-8 max-w-3xl text-lg leading-8 text-white/70">
+              Instead of relying on manual effort, inconsistent follow-ups, and
+              disconnected tools, we build a{" "}
+              <span className="font-medium text-white">
+                structured revenue control system
+              </span>{" "}
+              that ensures every lead is captured, contacted, qualified, and moved
+              toward a decision automatically.
+            </p>
+          </div>
+
+          <div className="mt-14 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+            <div className="rounded-3xl border border-white/10 bg-white/5 p-6">
+              <p className="text-sm uppercase tracking-[0.18em] text-white/40">
+                01
+              </p>
+              <h3 className="mt-4 text-xl font-semibold text-white">
+                Lead Capture Engine
+              </h3>
+              <p className="mt-4 text-base leading-7 text-white/70">
+                Attract and capture high-intent prospects through a focused entry
+                point designed to filter stronger opportunities into your pipeline.
+              </p>
+              <p className="mt-4 text-sm leading-6 text-white/50">
+                Why it matters: the quality of leads entering your system affects
+                everything downstream.
+              </p>
+            </div>
+
+            <div className="rounded-3xl border border-white/10 bg-white/5 p-6">
+              <p className="text-sm uppercase tracking-[0.18em] text-white/40">
+                02
+              </p>
+              <h3 className="mt-4 text-xl font-semibold text-white">
+                Instant Response Layer
+              </h3>
+              <p className="mt-4 text-base leading-7 text-white/70">
+                Every lead receives an immediate response through WhatsApp, SMS,
+                or automation so interest does not fade before the conversation
+                begins.
+              </p>
+              <p className="mt-4 text-sm leading-6 text-white/50">
+                Why it matters: speed determines whether intent converts or
+                disappears.
+              </p>
+            </div>
+
+            <div className="rounded-3xl border border-white/10 bg-white/5 p-6">
+              <p className="text-sm uppercase tracking-[0.18em] text-white/40">
+                03
+              </p>
+              <h3 className="mt-4 text-xl font-semibold text-white">
+                Qualification & Routing
+              </h3>
+              <p className="mt-4 text-base leading-7 text-white/70">
+                Leads are filtered, categorized, and guided based on intent and
+                readiness so your time goes to the prospects most likely to move.
+              </p>
+              <p className="mt-4 text-sm leading-6 text-white/50">
+                Why it matters: not every lead should be treated the same.
+              </p>
+            </div>
+
+            <div className="rounded-3xl border border-white/10 bg-white/5 p-6">
+              <p className="text-sm uppercase tracking-[0.18em] text-white/40">
+                04
+              </p>
+              <h3 className="mt-4 text-xl font-semibold text-white">
+                Booking & Re-Engagement
+              </h3>
+              <p className="mt-4 text-base leading-7 text-white/70">
+                Qualified leads are guided toward a booked call, while unresponsive
+                leads are re-activated through automated follow-up and voice-based
+                workflows.
+              </p>
+              <p className="mt-4 text-sm leading-6 text-white/50">
+                Why it matters: most revenue is lost between initial interest and
+                the booking stage.
+              </p>
+            </div>
+          </div>
+
+          <div className="mt-12 max-w-4xl">
+            <p className="text-lg leading-8 text-white/70">
+              Most agencies give you tools. We give you a system that executes
+              without relying on your time, memory, or manual effort.
+            </p>
+
+            <p className="mt-6 text-xl font-medium leading-8 text-white">
+              Capture → Respond → Qualify → Book → Re-engage
             </p>
           </div>
         </div>
