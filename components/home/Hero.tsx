@@ -17,14 +17,14 @@ export default function Hero() {
 
       <Container className="relative py-20 md:py-28 xl:py-32">
         <div className="grid items-center gap-14 lg:grid-cols-[1.15fr_0.85fr]">
-          <div className="max-w-2xl xl:max-w-3xl">
+          <div className="max-w-2xl">
             <SectionBadge>Client Acquisition System</SectionBadge>
 
-            <h1 className="mt-6 text-4xl font-semibold leading-[1.05] tracking-[-0.03em] text-white sm:text-5xl md:text-6xl xl:text-7xl">
-              Most Coaches Don’t Have
-              <span className="block text-white/70">a Lead Problem.</span>
-              <span className="block">They Have a System Problem.</span>
-            </h1>
+            <h1 className="mt-6 text-4xl font-semibold leading-[1.02] tracking-[-0.04em] text-white sm:text-5xl md:text-6xl xl:text-7xl">
+  <span className="block">Most Coaches Don’t Have</span>
+  <span className="block text-white/70">a Lead Problem.</span>
+  <span className="block">They Have a System Problem.</span>
+</h1>
 
             <p className="mt-7 max-w-2xl text-base leading-8 text-white/70 sm:text-lg">
               We build disciplined client acquisition systems that capture,

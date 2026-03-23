@@ -21,11 +21,11 @@ export default function WhatsAppPopup() {
     <>
       {/* Floating Button */}
       <button
-        onClick={() => setOpen(true)}
-        className="fixed bottom-5 right-5 z-50 rounded-full bg-white px-5 py-3 text-sm font-medium text-black shadow-2xl"
-      >
-        Chat on WhatsApp
-      </button>
+  onClick={() => setOpen(true)}
+  className="fixed bottom-6 right-6 z-40 hidden rounded-full border border-white/10 bg-white px-4 py-2.5 text-sm font-medium text-black shadow-[0_10px_40px_rgba(0,0,0,0.35)] transition duration-200 hover:scale-[1.02] hover:bg-white/90 lg:inline-flex"
+>
+  WhatsApp
+</button>
 
       {/* Popup */}
       {open && (
