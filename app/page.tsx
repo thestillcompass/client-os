@@ -3,6 +3,7 @@ import Founder from "@/components/home/Founder";
 import Hero from "@/components/home/Hero";
 import HowItWorks from "@/components/home/HowItWorks";
 import Problem from "@/components/home/Problem";
+import Proof from "@/components/home/Proof";
 import Solution from "@/components/home/Solution";
 import Footer from "@/components/ui/Footer";
 import Navbar from "@/components/ui/Navbar";
@@ -18,6 +19,7 @@ export default function Home() {
       <Problem />
       <Solution />
       <HowItWorks />
+      <Proof />
       <Founder />
       <CTA />
       <Footer />
